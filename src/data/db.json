@@ -1,0 +1,297 @@
+{
+  "brands": [
+    {
+      "name": "Audi",
+      "models": ["A3", "A3 S3", "A4", "A5", "Q5"],
+      "manuals": [
+        "Audi_A3_2024_Owners_Manual.pdf",
+        "Audi_A3_S3_Owners_Manual.pdf",
+        "Audi_A4_2025_Owners_Manual.pdf",
+        "Audi_A5_2024_Owners_Manual.pdf",
+        "Audi_Q5_2026_Owners_Manual.pdf"
+      ]
+    },
+    {
+      "name": "BMW",
+      "models": ["3 Series (E90)", "3 Series (2024)", "5 Series", "X3"],
+      "manuals": [
+        "BMW_3_Series_2024_Owner_Manual.pdf",
+        "BMW_3_Series_E90_Service_Manual.pdf",
+        "BMW_5_Series_2022_Owner_Manual.pdf",
+        "BMW_X3_2023_Owner_Manual.pdf",
+        "BMW_X3_2026_Owner_Manual.pdf"
+      ]
+    },
+    {
+      "name": "Mercedes-Benz",
+      "models": ["C-Class (W204)", "C-Class (S205)", "E-Class (W212)", "E-Class (W213)"],
+      "manuals": [
+        "Mercedes_C-Class_S205_2020_Estate_Owner_Manual.pdf",
+        "Mercedes_C-Class_W204_2007_Owner_Manual.pdf",
+        "Mercedes_C-Class_W204_2013_Operator_Manual.pdf",
+        "Mercedes_E-Class_W212_2012_Operator_Manual.pdf",
+        "Mercedes_E-Class_W213_2016_Owner_Manual.pdf",
+        "Mercedes_E-Class_W213_2018_Owner_Manual.pdf",
+        "Mercedes_E-Class_W213_2022_Owner_Manual.pdf"
+      ]
+    },
+    {
+      "name": "Volkswagen",
+      "models": ["Golf GTI", "Golf", "Passat", "Tiguan"],
+      "manuals": [
+        "2021_Volkswagen_Golf_GTI_Owners_Manual.pdf",
+        "2022_Volkswagen_Tiguan_Owners_Manual.pdf",
+        "2024_Volkswagen_Golf_GTI_Owners_Manual.pdf",
+        "2024_Volkswagen_Golf_Owners_Manual.pdf",
+        "2024_Volkswagen_Passat_Owners_Manual.pdf"
+      ]
+    },
+    {
+      "name": "Land Rover",
+      "models": ["Defender", "Range Rover", "Range Rover Evoque"],
+      "manuals": [
+        "Land_Rover_Defender_1999_Owners_Handbook.pdf",
+        "Land_Rover_Defender_Owners_Handbook.pdf",
+        "Range_Rover_1999_Owners_Handbook.pdf",
+        "Range_Rover_2004_Owners_Handbook.pdf",
+        "Range_Rover_Evoque_Owners_Handbook.pdf"
+      ]
+    },
+    {
+      "name": "MINI",
+      "models": ["Cooper SE Electric", "Hardtop 2 Door", "Hardtop 4 Door"],
+      "manuals": [
+        "2020_MINI_Cooper_SE_Electric_Owners_Manual.pdf",
+        "2020_MINI_Hardtop_4_Door_Owners_Manual.pdf",
+        "2022_MINI_Cooper_SE_Owners_Manual.pdf",
+        "2022_MINI_Hardtop_2_4_Door_Owners_Manual.pdf",
+        "2024_MINI_Hardtop_Owners_Manual.pdf"
+      ]
+    },
+    {
+      "name": "Volvo",
+      "models": ["S60", "XC90", "XC90 T8"],
+      "manuals": [
+        "2020_Volvo_S60_Owners_Manual_US.pdf",
+        "2020_Volvo_XC90_Owners_Manual.pdf",
+        "2020_Volvo_XC90_T8_Owners_Manual.pdf"
+      ]
+    }
+  ],
+  "symptoms": [
+    {
+      "id": "SYM001",
+      "code": "Transmission Malfunction / Gearbox malfunction",
+      "symptom": "ระบบเกียร์ขัดข้องหรือมีความร้อนสูงเกินไป รถอาจเปลี่ยนเกียร์เองไปที่เกียร์ว่าง (N) หรือเกียร์จอด (P)",
+      "solution": "หยุดรถในที่ปลอดภัยทันที ดับเครื่องยนต์ (หรือปล่อยให้เครื่องยนต์เดินเบาเพื่อระบายความร้อนหากคู่มือระบุ) และติดต่อศูนย์บริการ",
+      "category": "Transmission",
+      "severity": "critical",
+      "brands": ["Mercedes-Benz", "BMW", "Audi", "Volkswagen"],
+      "keywords": ["เกียร์", "เร่ง", "ขึ้น", "ได้", "กระตุก", "เข้าเกียร์", "ส่ง", "เปลี่ยนเกียร์", "เกียร์ร้อน", "เกียร์ค้าง", "ออโต้", "ไม่เดินหน้า", "ไม่ถอย", "รถไม่วิ่ง", "เร่งแล้วไม่ไป", "เร่งไม่มีแรง", "gearbox", "transmission", "DSG", "รอบขึ้น", "แต่ไม่ไป", "เกียร์สั่น", "เกียร์ลื่น", "เกียร์หลุด"]
+    },
+    {
+      "id": "SYM002",
+      "code": "Engine oil pressure too low",
+      "symptom": "แรงดันน้ำมันเครื่องต่ำเกินไป อาจเกิดจากน้ำมันเครื่องหมดหรือรั่ว ปั๊มน้ำมันเครื่องเสีย",
+      "solution": "ห้ามขับต่อเด็ดขาด ให้หยุดรถและดับเครื่องยนต์ทันที ตรวจเช็คระดับน้ำมันเครื่องก่อน หากต่ำให้เติม หากไม่ต่ำให้ติดต่อช่างผู้ชำนาญ",
+      "category": "Engine",
+      "severity": "critical",
+      "brands": ["Audi", "BMW", "Mercedes-Benz", "Volkswagen", "Volvo", "MINI"],
+      "keywords": ["น้ำมันเครื่อง", "ไฟรูปกาน้ำมัน", "เครื่องน็อค", "น้ำมันเครื่องแห้ง", "น้ำมันเครื่องหมด", "เครื่องดัง", "เสียงดัง", "น้ำมันรั่ว", "oil", "pressure", "เครื่องสั่น", "ควันดำ", "ควันขาว", "เผาน้ำมัน"]
+    },
+    {
+      "id": "SYM003",
+      "code": "Coolant temperature too high / Coolant Stop vehicle",
+      "symptom": "อุณหภูมิน้ำยาหล่อเย็นสูงเกินไป (เครื่องยนต์ร้อนจัด) อาจเกิดจากน้ำยาหล่อเย็นรั่ว พัดลมหม้อน้ำเสีย หรือเทอร์โมสตัทค้าง",
+      "solution": "นำรถจอดในที่ปลอดภัย ปิดเครื่องยนต์ และรอให้เครื่องยนต์เย็นลง ห้ามเปิดฝาหม้อน้ำขณะร้อน หากข้อความไม่หายไปให้ติดต่อศูนย์บริการ",
+      "category": "Engine",
+      "severity": "critical",
+      "brands": ["Audi", "BMW", "Mercedes-Benz", "Volkswagen", "Volvo", "Land Rover", "MINI"],
+      "keywords": ["ความร้อน", "ร้อน", "เครื่องร้อน", "น้ำดัน", "หม้อน้ำ", "แห้ง", "โอเวอร์ฮีท", "overheat", "น้ำยาหล่อเย็น", "coolant", "เข็มขึ้น", "อุณหภูมิ", "พัดลม", "เทอร์โม", "น้ำรั่ว", "น้ำหม้อน้ำ"]
+    },
+    {
+      "id": "SYM004",
+      "code": "Steering malfunction / Power Steering Malfunction",
+      "symptom": "ระบบพวงมาลัยพาวเวอร์ขัดข้อง ทำให้พวงมาลัยหนักและต้องใช้แรงหมุนมากกว่าปกติ อาจเกิดจากปั๊มพาวเวอร์เสียหรือน้ำมันพาวเวอร์หมด",
+      "solution": "หากยังสามารถควบคุมรถได้ ให้ขับด้วยความระมัดระวังไปที่ศูนย์บริการ หากควบคุมไม่ได้ให้หยุดรถทันที",
+      "category": "Suspension",
+      "severity": "high",
+      "brands": ["Mercedes-Benz", "BMW", "Audi", "Volvo"],
+      "keywords": ["พวงมาลัย", "หนัก", "เลี้ยว", "ไม่ไป", "แข็ง", "ล็อก", "พาวเวอร์", "หมุน", "เลี้ยวลำบาก", "steering", "EPS", "น้ำมันพาวเวอร์"]
+    },
+    {
+      "id": "SYM005",
+      "code": "Refill AdBlue / AdBlue system fault",
+      "symptom": "น้ำยา AdBlue ต่ำกว่าระดับสำรอง หรือระบบไอเสียดีเซลมีปัญหา ระบบ SCR ไม่ทำงาน",
+      "solution": "ให้เติมน้ำยา AdBlue ทันที หากปล่อยไว้จนน้ำยาหมด จะไม่สามารถสตาร์ทเครื่องยนต์ได้อีกหลังจากการดับเครื่อง",
+      "category": "Engine",
+      "severity": "high",
+      "brands": ["Mercedes-Benz", "BMW", "Audi", "Volkswagen", "Volvo", "Land Rover"],
+      "keywords": ["adblue", "แอดบลู", "ไอเสีย", "สตาร์ท", "ไม่ติด", "ดีเซล", "SCR", "DEF", "เติมน้ำยา", "ไฟเตือนไอเสีย"]
+    },
+    {
+      "id": "SYM006",
+      "code": "PRE-SAFE Inoperative / Active bonnet malfunction",
+      "symptom": "ระบบความปลอดภัยช่วยเหลือผู้ขับขี่ หรือระบบป้องกันคนเดินถนนขัดข้อง ระบบเบรกอัตโนมัติถูกปิดใช้งาน",
+      "solution": "ฟังก์ชันช่วยเหลือจะถูกปิดใช้งาน (แต่ถุงลมนิรภัยยังทำงานตามปกติ) ให้นำรถเข้าศูนย์บริการทันที",
+      "category": "Electrical",
+      "severity": "medium",
+      "brands": ["Mercedes-Benz", "BMW", "Volvo"],
+      "keywords": ["เซ็นเซอร์", "เบรก", "อัตโนมัติ", "ชน", "ระบบ", "ความปลอดภัย", "pre-safe", "ถุงลม", "เตือน", "กล้อง", "radar"]
+    },
+    {
+      "id": "SYM007",
+      "code": "EAS FAULT",
+      "symptom": "ระบบช่วงล่างถุงลม (Air Suspension) มีปัญหา รถอาจเอียงข้างหนึ่งหรือต่ำลงผิดปกติ",
+      "solution": "ขับขี่ด้วยความระมัดระวัง (ความเร็วอาจถูกจำกัดอัตโนมัติ) และนำรถเข้าศูนย์บริการ",
+      "category": "Suspension",
+      "severity": "high",
+      "brands": ["Land Rover"],
+      "keywords": ["โช๊ค", "ถุงลม", "ช่วงล่าง", "เอียง", "เตี้ย", "ต่ำ", "ยุบ", "สูง", "ปรับระดับ", "air suspension", "EAS", "โช๊คแอร์", "ระดับรถ"]
+    },
+    {
+      "id": "SYM008",
+      "code": "Electrical system: fault / Battery low",
+      "symptom": "แรงดันไฟฟ้าในระบบต่ำ แบตเตอรี่ไม่ได้รับการชาร์จ หรือระบบไฮบริด/48V ขัดข้อง ไดชาร์จอาจเสียหาย",
+      "solution": "ให้ปิดอุปกรณ์ไฟฟ้าที่ไม่จำเป็นทั้งหมด หากเป็นข้อความเตือนให้หยุดรถ ห้ามขับต่อเด็ดขาด เพราะอาจทำให้เครื่องยนต์ดับกลางทางได้",
+      "category": "Electrical",
+      "severity": "high",
+      "brands": ["Mercedes-Benz", "BMW", "Audi", "Volkswagen", "Volvo", "MINI"],
+      "keywords": ["แบต", "เสื่อม", "หมด", "สตาร์ท", "ไม่ติด", "ไฟ", "ไม่พอ", "ไดชาร์จ", "ตก", "battery", "ระบบไฟ", "ไฟเตือน", "ไฟหรี่", "ไฟสว่าง", "จั๊มแบต", "พ่วง"]
+    },
+    {
+      "id": "SYM009",
+      "code": "Check Engine / Engine Warning Light",
+      "symptom": "ไฟเตือนเครื่องยนต์สว่าง อาจเกิดจากหลายสาเหตุ เช่น เซ็นเซอร์ออกซิเจนเสีย, หัวเทียนเสื่อม, ท่อไอดีรั่ว, ระบบ EGR, สายพาน",
+      "solution": "ตรวจ OBD-II เพื่อดูรหัสข้อผิดพลาดที่แน่นอน อาจยังขับต่อได้ แต่ควรนำไปตรวจโดยเร็ว หากไฟกระพริบให้หยุดรถทันที",
+      "category": "Engine",
+      "severity": "medium",
+      "brands": ["Audi", "BMW", "Mercedes-Benz", "Volkswagen", "Volvo", "Land Rover", "MINI"],
+      "keywords": ["เครื่องยนต์", "ไฟเตือน", "เช็คเอ็นจิ้น", "check engine", "เร่ง", "ไม่ขึ้น", "ได้", "อืด", "ไม่มีแรง", "ตอบสนอง", "ช้า", "กินน้ำมัน", "เดินเบา", "สั่น", "หัวเทียน", "เซ็นเซอร์", "OBD", "error code", "รอบเครื่อง", "อ่านโค้ด"]
+    },
+    {
+      "id": "SYM010",
+      "code": "Brake Wear / Brake System Warning",
+      "symptom": "ผ้าเบรกสึกหรอ ระบบเบรกมีปัญหา อาจเกิดเสียงดังเมื่อเบรก หรือเบรกไม่มีประสิทธิภาพ",
+      "solution": "ตรวจสอบผ้าเบรกและจานเบรก หากเสียงดังต่อเนื่องให้เข้าศูนย์บริการทันที ห้ามปล่อยทิ้งไว้ เพราะจะทำให้จานเบรกเสียหายด้วย",
+      "category": "Suspension",
+      "severity": "high",
+      "brands": ["Audi", "BMW", "Mercedes-Benz", "Volkswagen", "Volvo", "Land Rover", "MINI"],
+      "keywords": ["เบรก", "เสียงดัง", "เบรกไม่อยู่", "ผ้าเบรก", "จานเบรก", "เบรกบ่น", "เบรกสั่น", "เบรกเบา", "เบรกแข็ง", "หยุดไม่อยู่", "brake", "ABS"]
+    },
+    {
+      "id": "SYM011",
+      "code": "Tire Pressure Monitoring System (TPMS) Warning",
+      "symptom": "แรงดันลมยางต่ำกว่าปกติ หรือเซ็นเซอร์วัดแรงดันลมยางขัดข้อง",
+      "solution": "ตรวจสอบแรงดันลมยางทุกเส้น เติมลมให้ตรงตามค่ามาตรฐาน (มักระบุที่ป้ายข้างประตูฝั่งคนขับ) หากยางรั่วให้ซ่อมหรือเปลี่ยน",
+      "category": "Suspension",
+      "severity": "medium",
+      "brands": ["Audi", "BMW", "Mercedes-Benz", "Volkswagen", "Volvo", "Land Rover", "MINI"],
+      "keywords": ["ยาง", "ลมยาง", "ยางรั่ว", "ยางแบน", "ยางแตก", "เติมลม", "TPMS", "แรงดันลม", "ยางเสื่อม", "ยางสึก"]
+    },
+    {
+      "id": "SYM012",
+      "code": "ABS / ESP / Traction Control Warning",
+      "symptom": "ระบบเบรก ABS หรือระบบกันลื่น ESP/Traction Control ขัดข้อง ล้ออาจล็อกเมื่อเบรกกะทันหัน หรือรถอาจเสียการควบคุมในทางลื่น",
+      "solution": "ขับขี่ด้วยความระมัดระวัง หลีกเลี่ยงการเบรกกะทันหันและการขับเร็ว นำรถเข้าตรวจสอบโดยเร็ว",
+      "category": "Electrical",
+      "severity": "high",
+      "brands": ["Audi", "BMW", "Mercedes-Benz", "Volkswagen", "Volvo", "Land Rover", "MINI"],
+      "keywords": ["ABS", "ESP", "ลื่น", "ล้อล็อก", "เสียการควบคุม", "ไฟเตือน", "traction", "เบรกไม่อยู่", "ไถล", "หมุน", "ลื่นไถล"]
+    }
+  ],
+  "parts": [
+    {
+      "name": "ปลั๊กเชื่อมต่อ OBD (Onboard Diagnosis Socket)",
+      "location": "บริเวณที่วางเท้าฝั่งคนขับ (Driver's side footwell) หรือใต้แผงคอนโซลหน้า",
+      "notes": "หากเสียบอุปกรณ์ทิ้งไว้ อาจทำให้สัญญาณกันขโมยดังเมื่อล็อกรถ ควรใช้โดยช่างผู้เชี่ยวชาญเท่านั้น",
+      "keywords": ["obd", "เสียบคอม", "สแกนโค้ด", "ปลั๊กวิเคราะห์", "จุดเช็ค", "อ่านโค้ด", "ต่อคอม"]
+    },
+    {
+      "name": "ชุดเครื่องมือประจำรถ (Vehicle Tool Kit / TIREFIT)",
+      "location": "อยู่ในห้องสัมภาระท้ายรถ โดยอาจอยู่ใต้แผ่นปูพื้น (Cargo floor panel) หรือช่องเก็บของด้านข้าง",
+      "notes": "มักจะประกอบด้วย แม่แรง, หูลากจอด, ชุดซ่อมยาง, และป้ายเตือน",
+      "keywords": ["เครื่องมือ", "แม่แรง", "หูลาก", "ปะยาง", "ยางรั่ว", "tirefit", "เครื่องมือประจำรถ", "ยกรถ", "เปลี่ยนยาง"]
+    },
+    {
+      "name": "กล่องฟิวส์ (Fuse Box)",
+      "location": "มีหลายตำแหน่ง: 1. ในห้องเครื่องยนต์ 2. แผงหน้าปัดฝั่งคนขับหรือผู้โดยสาร 3. ในห้องสัมภาระท้ายรถ",
+      "notes": "ด้านในฝาครอบกล่องฟิวส์มักจะมีแผนผังหรือคีมหนีบฟิวส์เตรียมไว้ให้",
+      "keywords": ["ฟิวส์", "fuse", "ไฟช็อต", "ไฟขาด", "กล่องฟิวส์", "ไฟดับ", "อุปกรณ์ไม่ทำงาน"]
+    },
+    {
+      "name": "ถังพักน้ำยาหล่อเย็น (Coolant expansion tank)",
+      "location": "ภายในห้องเครื่องยนต์ (Engine compartment)",
+      "notes": "ห้ามเปิดฝาขณะที่เครื่องยนต์ยังร้อนจัด เพื่อป้องกันน้ำร้อนลวก",
+      "keywords": ["หม้อน้ำ", "น้ำยาหล่อเย็น", "coolant", "เติมน้ำ", "ถังพักน้ำ", "ความร้อน", "น้ำหม้อน้ำ"]
+    },
+    {
+      "name": "กระปุกน้ำมันเบรก (Brake fluid reservoir)",
+      "location": "ภายในห้องเครื่องยนต์ (มักอยู่ฝั่งคนขับ) บางรุ่นมีฝาครอบพลาสติกปิดทับไว้",
+      "notes": "หากระดับน้ำมันเบรกลดลงอย่างรวดเร็ว ให้ตรวจสอบการรั่วซึมทันที",
+      "keywords": ["น้ำมันเบรก", "เบรก", "brake fluid", "เบรกไม่อยู่", "กระปุกเบรก", "เบรกเบา"]
+    },
+    {
+      "name": "จุดพ่วงแบตเตอรี่ (Jump-starting terminals)",
+      "location": "ภายในห้องเครื่องยนต์ โดยขั้วบวก (+) มักจะมีฝาปิดสีแดง ส่วนขั้วลบ (-) จะเป็นจุดยึดโลหะหรือหัวน็อตหกเหลี่ยม",
+      "notes": "ใช้สำหรับการจัมป์สตาร์ทเท่านั้น ไม่ควรต่อโดยตรงกับขั้วแบตเตอรี่ในกรณีที่แบตเตอรี่ถูกซ่อนไว้",
+      "keywords": ["พ่วงแบต", "จั๊มแบต", "ขั้วแบต", "แบตหมด", "jump start", "สตาร์ทไม่ติด"]
+    },
+    {
+      "name": "ช่องเติมน้ำยาฉีดกระจก (Washer fluid filler neck)",
+      "location": "ภายในห้องเครื่องยนต์ สังเกตจากสัญลักษณ์รูปที่ฉีดน้ำกระจก",
+      "notes": "บางพื้นที่ห้ามผสมสารเติมแต่งที่มีส่วนผสมของซิลิโคน เพราะอาจทำให้ระบบอุดตันได้",
+      "keywords": ["น้ำฉีดกระจก", "ปัดน้ำฝน", "ที่ปัดน้ำฝน", "washer fluid", "เติมน้ำยากระจก", "กระจกสกปรก"]
+    }
+  ],
+  "maintenance": [
+    {
+      "interval": "ทุกวัน / ทุกครั้งที่เติมน้ำมัน",
+      "minKm": 0,
+      "maxKm": 5000,
+      "items": "ตรวจสอบระดับน้ำมันเครื่อง, ระดับน้ำยาฉีดกระจก, ทำความสะอาดกระจกและไฟหน้า/ไฟท้าย, และตรวจหารอยรั่วซึมของของเหลวใต้ท้องรถ",
+      "notes": "การตรวจสอบพื้นฐานเพื่อความปลอดภัย",
+      "type": "Basic"
+    },
+    {
+      "interval": "ทุกสัปดาห์ / ทุกเดือน",
+      "minKm": 0,
+      "maxKm": 5000,
+      "items": "ตรวจเช็คแรงดันลมยางและสภาพยาง (ขณะยางเย็น), ระดับน้ำมันเบรก, น้ำมันพวงมาลัยพาวเวอร์, ระดับน้ำยาหล่อเย็น และตรวจสอบขั้วแบตเตอรี่",
+      "notes": "เติมของเหลวให้อยู่ระหว่างขีด MIN และ MAX",
+      "type": "Basic"
+    },
+    {
+      "interval": "5,000 - 15,000 กม. หรือ 1 ปี",
+      "minKm": 5000,
+      "maxKm": 15000,
+      "items": "เปลี่ยนถ่ายน้ำมันเครื่องแบบคงที่ (Fixed Service) และไส้กรองน้ำมันเครื่อง",
+      "notes": "ขึ้นอยู่กับสเปกเครื่องยนต์ (PR No.) เช่น ในรถยนต์ Volkswagen หรือ Audi",
+      "type": "Service"
+    },
+    {
+      "interval": "16,000 - 34,000 กม. หรือ 1-2 ปี",
+      "minKm": 16000,
+      "maxKm": 34000,
+      "items": "A Service / B Service สลับกันไป (เปลี่ยนถ่ายน้ำมันเครื่อง, ตรวจเช็คสภาพทั่วไป)",
+      "notes": "ตัวอย่างรอบการเช็กระยะของเครื่องยนต์เบนซิน/ดีเซลในรถ Land Rover",
+      "type": "Service"
+    },
+    {
+      "interval": "ทุกๆ 3 ปี",
+      "minKm": 45000,
+      "maxKm": 60000,
+      "items": "เปลี่ยนถ่ายน้ำมันเบรก (Brake fluid replacement)",
+      "notes": "แนะนำสำหรับรถ Range Rover / Volvo เป็นต้น",
+      "type": "Service"
+    },
+    {
+      "interval": "ทุกๆ 4 ปี",
+      "minKm": 60000,
+      "maxKm": 80000,
+      "items": "เปลี่ยนถ่ายน้ำยาหล่อเย็น (Coolant replacement)",
+      "notes": "แนะนำสำหรับรถ Range Rover",
+      "type": "Service"
+    }
+  ]
+}
