@@ -2,9 +2,9 @@ import React from 'react';
 
 const tabs = [
   { id: 'dashboard', label: 'Dashboard' },
-  { id: 'symptoms', label: 'Symptoms' },
-  { id: 'maintenance', label: 'Maintenance' },
-  { id: 'chatbot', label: '🤖 AI Chat' },
+  { id: 'symptoms', label: 'อาการที่พบ' },
+  { id: 'maintenance', label: 'การบำรุงรักษา' },
+  { id: 'chatbot', label: '🤖 AI ช่วยตอบ' },
 ];
 
 const Navbar = ({ activeTab, setActiveTab }) => {
@@ -18,7 +18,7 @@ const Navbar = ({ activeTab, setActiveTab }) => {
         style={{ fontSize: '1.4rem', fontWeight: 'bold', cursor: 'pointer', flexShrink: 0 }}
         onClick={() => setActiveTab('dashboard')}
       >
-        <span className="neon-text-blue">Euro</span><span className="neon-text-amber">Diag</span>
+        <span className="neon-text-blue">ดูแลรถ</span><span className="neon-text-amber">แบบง่ายๆ</span>
       </div>
       <div className="nav-links" style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap', justifyContent: 'flex-end' }}>
         {tabs.map((tab) => (

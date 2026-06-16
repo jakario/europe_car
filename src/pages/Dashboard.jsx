@@ -30,7 +30,7 @@ const Dashboard = () => {
       {/* Hero Section */}
       <div style={{ textAlign: 'center', marginBottom: '3rem', marginTop: '2rem' }}>
         <h1 className="neon-text-blue" style={{ fontSize: '2.8rem', marginBottom: '0.5rem', textTransform: 'uppercase', letterSpacing: '3px' }}>
-          System Diagnostics
+          ตรวจสอบคู่มือรถยนต์ 7 แบรนด์ใหญ่
         </h1>
         <p style={{ color: 'var(--text-secondary)', fontSize: '1.1rem', maxWidth: '600px', margin: '0 auto' }}>
           ค้นหาอาการเสีย, รหัสไฟเตือน, หรือชิ้นส่วนรถยนต์ยุโรป — พิมพ์ภาษาพูดได้เลย

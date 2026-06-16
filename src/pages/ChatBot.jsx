@@ -143,11 +143,11 @@ const ChatBot = () => {
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
         <div>
           <h2 style={{ margin: 0, fontSize: '2rem' }}>
-            <span className="neon-text-blue">Euro</span><span className="neon-text-amber">Diag</span>
-            <span style={{ color: 'var(--text-secondary)', fontSize: '1.2rem', marginLeft: '0.5rem' }}>AI</span>
+            <span className="neon-text-blue">ดูแลรถ</span><span className="neon-text-amber">แบบง่ายๆ</span>
+            <span style={{ color: 'var(--text-secondary)', fontSize: '1.2rem', marginLeft: '0.5rem' }}>AI ช่วยตอบ</span>
           </h2>
           <p style={{ color: 'var(--text-secondary)', margin: '0.25rem 0 0', fontSize: '0.9rem' }}>
-            ถามอะไรก็ได้เกี่ยวกับรถยุโรป — ผมมีข้อมูลจากคู่มือ 7 ยี่ห้อ
+            ถามอะไรก็ได้เกี่ยวกับรถยุโรป — มีข้อมูลจากคู่มือ 7 ยี่ห้อ
           </p>
         </div>
         <div style={{ display: 'flex', gap: '0.5rem' }}>
@@ -233,7 +233,7 @@ const ChatBot = () => {
             <div style={{ textAlign: 'center' }}>
               <div style={{ fontSize: '4rem', marginBottom: '1rem' }}>🔧</div>
               <h3 style={{ color: 'var(--text-primary)', fontSize: '1.3rem', marginBottom: '0.5rem' }}>
-                สวัสดีครับ! ผมคือ EuroDiag AI
+                สวัสดีครับ! ผมคือ AI ช่วยตอบ
               </h3>
               <p style={{ color: 'var(--text-secondary)', maxWidth: '500px', lineHeight: '1.6' }}>
                 ผมสามารถช่วยวินิจฉัยอาการรถยนต์ยุโรป, แนะนำการบำรุงรักษา,
@@ -299,7 +299,7 @@ const ChatBot = () => {
               {msg.role === 'assistant' && !msg.isError && (
                 <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', marginBottom: '0.5rem', paddingBottom: '0.5rem', borderBottom: '1px solid var(--border-color)' }}>
                   <span style={{ fontSize: '0.9rem' }}>🔧</span>
-                  <span style={{ fontSize: '0.75rem', color: 'var(--accent-amber)', fontWeight: '600' }}>EuroDiag AI</span>
+                  <span style={{ fontSize: '0.75rem', color: 'var(--accent-amber)', fontWeight: '600' }}>ดูแลรถ AI</span>
                 </div>
               )}
               <div style={{ color: msg.isError ? '#ff5555' : 'var(--text-primary)', fontSize: '0.95rem', lineHeight: '1.7' }}>
